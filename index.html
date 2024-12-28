@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#000000">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="New List App">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="icon.png">
+    <link rel="apple-touch-icon" href="icon.png">
+    <title>New List</title>
+</head>
+<body>
+    <div class="app">
+        <header>
+            <button class="cancel">Cancel</button>
+            <h1>New List</h1>
+            <button class="done" id="doneBtn" disabled>Done</button>
+        </header>
+
+        <main>
+            <div class="list-section">
+                <div class="list-icon"></div>
+                <input type="text" id="listName" placeholder="List Name">
+            </div>
+
+            <div class="details-section">
+                <input type="text" id="title" placeholder="Title">
+                <textarea id="notes" placeholder="Notes"></textarea>
+            </div>
+
+            <button class="details-btn">
+                <span>Details</span>
+                <span>&#x276F;</span>
+            </button>
+
+            <button class="list-btn">
+                <div class="list-item">
+                    <div class="circle"></div>
+                    <span>List</span>
+                </div>
+                <div class="reminder">
+                    <span>Reminders</span>
+                    <span>&#x276F;</span>
+                </div>
+            </button>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
