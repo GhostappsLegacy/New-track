@@ -1,0 +1,116 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.app {
+    min-height: 100vh;
+    padding: 1rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+header button {
+    background: none;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.cancel {
+    color: #007aff;
+}
+
+.done {
+    color: #555;
+}
+
+.done.enabled {
+    color: #007aff;
+}
+
+h1 {
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+
+.list-section, .details-section {
+    background-color: #1c1c1d;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.list-icon {
+    width: 8rem;
+    height: 8rem;
+    margin: 0 auto 1rem;
+    background-color: #2c2c2e;
+    border-radius: 0.5rem;
+}
+
+input, textarea {
+    width: 100%;
+    background-color: #2c2c2e;
+    border: none;
+    padding: 1rem;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #666;
+}
+
+textarea {
+    resize: none;
+    height: 6rem;
+}
+
+.details-btn, .list-btn {
+    width: 100%;
+    background-color: #1c1c1d;
+    border: none;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    color: #fff;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+}
+
+.circle {
+    width: 2rem;
+    height: 2rem;
+    background-color: #2c2c2e;
+    border-radius: 50%;
+    margin-right: 0.75rem;
+}
+
+.reminder {
+    display: flex;
+    align-items: center;
+}
+
+.reminder span {
+    margin-right: 0.5rem;
+    color: #666;
+}
